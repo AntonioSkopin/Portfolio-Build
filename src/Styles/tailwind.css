@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* img {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%);
+} */
+
+.red-bg {
+    background-color: #f45844;
+}
+
+.hover-to-red-bg:hover {
+    background-color: #f45844;
+}
+
+.hover-to-red:hover {
+    color: #f45844;
+}
+
+.red-text {
+    color: #f45844;
+}
+
+@layer utilities {
+    @variants responsive {
+        .text-big-xl {
+            font-size: 11rem;
+        }
+    }
+}
