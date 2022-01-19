@@ -14,7 +14,7 @@ import Shortr from "../../Assets/2.jpg";
 const ProjectsList = () => {
     return (
         <main>
-            <nav className="menu pb-12">
+            <nav className="menu">
                 <ProjectItem 
                     projectTitle="Newspaper"
                     projectIMG={Newspaper}
