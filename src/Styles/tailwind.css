@@ -31,5 +31,8 @@
         .text-big-xl {
             font-size: 11rem;
         }
+        .text-7-5xl {
+            font-size: 5.25rem;
+        }
     }
 }

@@ -33,10 +33,16 @@ body {
 	display: inline-block;
 	cursor: pointer;
 	position: relative;
-	-webkit-text-stroke: 1.5px #000;
 	-webkit-text-fill-color: transparent;
 	color: transparent;
 	transition: opacity 0.4s;
+	-webkit-text-stroke: 0.8px #000;
+}
+
+@media only screen and (min-width: 768px) {
+	.menu__item-link {
+		-webkit-text-stroke: 1.5px #000;
+	}
 }
 
 .menu__item-link:hover {
