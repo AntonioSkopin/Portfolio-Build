@@ -4,7 +4,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 const Testimonial = props => {
     return (
         <div className="flex flex-col md:flex-row py-12">
-            <img src={props.img} alt="" className="py-6 md:py-0 md:pr-12 w-full md:w-1/2" />
+            <img src={props.img} alt="" className="py-6 md:py-0 md:pr-12 w-full md:w-1/2 object-cover" />
             <div className="flex flex-col justify-between">
                 <div>
                     <FaQuoteLeft className="text-4xl red-text" />

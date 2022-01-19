@@ -1,5 +1,5 @@
 {
-  "homepage": "http://AntonioSkopin.github.io/Portfolio-Build",
+  "homepage": "https://skopin.nl",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -18,12 +18,12 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
