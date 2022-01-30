@@ -5,24 +5,24 @@ import OrangeButton from "../Components/Buttons/OrangeButton";
 
 const Contact = () => {
     return (
-        <div className="w-screen" style={{ backgroundColor: "#1b1b1e" }}>
+        <div id="contact" className="w-screen" style={{ backgroundColor: "#1b1b1e" }}>
             <div className="container mx-auto px-4 py-20 text-white">
-                <div className="flex flex-col md:flex-row justify-evenly">
+                <div className="flex flex-col md:flex-row">
                     <div>
-                        <h1 className="text-6xl py-4 font-semibold w-3/4 leading-normal">
+                        <h1 className="text-3xl md:text-5xl xl:text-7xl py-4 font-semibold w-3/4 leading-normal">
                             Let's discuss
                             your project
                         </h1>
-                        <form className="py-12 flex flex-col w-max">
-                            <InputText placeholder="Name*" />
-                            <InputText placeholder="Email*" />
-                            <TextArea placeholder="Your message" />
+                        <form action="https://formspree.io/f/mknyjowr" method="POST" className="py-4 md:py-12 flex flex-col w-max">
+                            <InputText placeholder="Name*" name="name" />
+                            <InputText placeholder="Email*" name="email" />
+                            <TextArea placeholder="Your message" name="message" />
                             <OrangeButton 
                                 text="Send"
                                 textColor="button-text-white" />
                         </form>
                     </div>
-                    <div className="md:pl-24 py-8">
+                    <div className="py-8">
                         <p className="text-2xl font-light leading-relaxed">
                             Besides, there's a
                             bunch of other ways to

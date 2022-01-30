@@ -16,9 +16,9 @@ const Menu = (props) => {
                 </header>
                 <div className="px-4 w-full flex justify-center items-center">
                     <ul className="font-bold text-5xl text-center">
-                        <li><a className="outline-text">Work</a></li>
-                        <li className="py-12"><a className="outline-text">About</a></li>
-                        <li><a className="outline-text">Contact</a></li>
+                        <li><a href="#about" className="outline-text">About</a></li>
+                        <li className="py-12"><a href="#work" className="outline-text">Work</a></li>
+                        <li><a href="#contact" className="outline-text">Contact</a></li>
                     </ul>
                 </div>
                 <div className="w-screen relative" style={{backgroundColor: "#1b1b1e"}}>

@@ -5,11 +5,11 @@ import ProjectItem from "./ProjectItem";
 import "./Styles/project.css";
 
 // Assets
-import Newspaper from "../../Assets/Images/newspaper.jpg";
-import Taxi from "../../Assets/Images/taxi.jpg";
-import Boxer from "../../Assets/Images/boxing.jpg";
-import Player from "../../Assets/Images/player.jpg";
-import Shortr from "../../Assets/2.jpg";
+import Newspaper from "../../Assets/Screenshots/np_ss.png";
+import Taxi from "../../Assets/Screenshots/at_ss.png";
+import Tb010 from "../../Assets/Screenshots/tb_ss.png";
+import Player from "../../Assets/Screenshots/ftp_ss.png";
+import HUS from "../../Assets/Screenshots/hus_ss.png";
 
 const ProjectsList = () => {
     return (
@@ -25,15 +25,15 @@ const ProjectsList = () => {
                     link="https://administratietaxi.nl" />
                 <ProjectItem 
                     projectTitle="Thaiboxing 010"
-                    projectIMG={Boxer}
+                    projectIMG={Tb010}
                     link="https://thaiboxing010.com" />
                 <ProjectItem 
                     projectTitle="4ThePlayers"
                     projectIMG={Player}
                     link="https://4theplayers.eu" />
                 <ProjectItem 
-                    projectTitle="Shortr."
-                    projectIMG={Shortr}
+                    projectTitle="HUS Nesselande"
+                    projectIMG={HUS}
                     link="" />
             </nav>
         </main>

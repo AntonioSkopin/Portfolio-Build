@@ -9,8 +9,7 @@ const Testimonial = props => {
                 <div>
                     <FaQuoteLeft className="text-4xl red-text" />
                     <h1 className="text-4xl leading-relaxed py-6">
-                        Bondlayer made our process so simple! 
-                        We can design and test in use immediatly.
+                        {props.text || "Bondlayer made our process so simple! We can design and test in use immediatly."}
                     </h1>
                 </div>
                 <div>

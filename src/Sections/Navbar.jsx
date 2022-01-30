@@ -36,9 +36,9 @@ const Navbar = () => {
                         {/* DESKTOP NAV */}
                         <nav className="hidden md:block ml-24">
                             <ul className="flex font-light text-md">
-                                <li><a href="#">Work</a></li>
-                                <li className="mx-12"><a href="#">About</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li className="mx-12"><a href="#work">Work</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
                         </nav>
                     </div>

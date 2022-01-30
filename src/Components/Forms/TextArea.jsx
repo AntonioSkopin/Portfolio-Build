@@ -1,7 +1,7 @@
 const TextArea = (props) => {
     return (
         <textarea
-            name=""
+            name={props.name}
             id=""
             cols="30"
             rows="4"

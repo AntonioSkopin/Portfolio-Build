@@ -3,7 +3,7 @@ import OrangeButton from "../Components/Buttons/OrangeButton";
 
 const AboutMe = () => {
     return (
-        <div className="container mx-auto px-4 py-24">
+        <div id="about" className="container mx-auto px-4 py-24">
             <h1 className="text-2xl md:text-5xl font-light leading-loose md:leading-relaxed">
                 A fullstack webdeveloper driven by ideas and
                 enthusiasm. My goal is to build user friendly websites

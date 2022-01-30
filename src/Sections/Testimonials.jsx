@@ -19,6 +19,9 @@ const Testimonials = () => {
                 img={Boxing}
                 owner="Sabri Boudarra"
                 business="Thaiboxing010"
+                text="Antonio is een fijne kerel om mee samen te werken. 
+                Hij nam vaak contact op om te kijken of alles naar verlangen liep 
+                en het eindresultaat mag er zeker zijn!"
             />
             <Testimonial 
                 img={Player}
@@ -29,6 +32,7 @@ const Testimonials = () => {
                 img={Closet}
                 owner="Anela Sefer"
                 business="Anela's Closet"
+                text="Super fijne samenwerking, werkt efficiënt, goede communicatie, levert goed werk 100% aangeraden"
             />
         </div>
     );

@@ -53,12 +53,27 @@ body {
 .menu__item-img {
 	pointer-events: none;
 	position: absolute;
-	height: 50vh;
+	height: 25vh;
 	max-height: 400px;
 	opacity: 0;
 	left: 100%;
 	top: 50%;
 	transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,20px,0);
+	z-index: 999;
+}
+
+@media only screen and (min-width: 768px) {
+	.menu__item-img {
+		pointer-events: none;
+		position: absolute;
+		height: 50vh;
+		max-height: 400px;
+		opacity: 0;
+		left: 100%;
+		top: 50%;
+		transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,20px,0);
+		z-index: 999;
+	}
 }
 
 .menu__item-link:hover + .menu__item-img {
