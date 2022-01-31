@@ -22,7 +22,7 @@ const Menu = (props) => {
                     </ul>
                 </div>
                 <div className="w-screen relative" style={{backgroundColor: "#1b1b1e"}}>
-                    <div className="py-8 px-12 flex justify-between">
+                    <div className="py-8 px-6 md:px-12 flex justify-between">
                         <div className="text-white">
                             <div>
                                 <small className="text-gray-400">Email</small>
@@ -40,7 +40,7 @@ const Menu = (props) => {
                             </div>
                             <div className="py-8">
                                 <small className="text-gray-400">Messengers</small>
-                                <div className="flex">
+                                <div className="md:flex">
                                     <p className="text-sm">FB MESSENGER -&nbsp;</p>
                                     <p className="text-sm">LINKEDIN -&nbsp;</p>
                                     <p className="text-sm ">FACEBOOK</p>

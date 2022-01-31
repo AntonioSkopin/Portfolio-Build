@@ -28,27 +28,27 @@ const Contact = () => {
                             bunch of other ways to
                             contact me
                         </p>
-                        <div className="py-20 pr-4 grid grid-cols-2 gap-12">
+                        <div className="py-20 pr-4 grid grid-cols-2 gap-20">
                             <div>
                                 <div>
                                     <small className="text-gray-400">Email</small>
-                                    <p className="text-xl">a_skopin@icloud.com</p>
+                                    <p className="text-lg md:text-xl">a_skopin@icloud.com</p>
                                 </div>
                                 <div className="py-8">
                                     <small className="text-gray-400">Phone</small>
-                                    <p className="text-xl">+31 6 18317710</p>
+                                    <p className="text-lg md:text-xl">+31 6 18317710</p>
                                 </div>
                             </div>
                             <div>
                                 <div>
                                     <small className="text-gray-400">Based in</small>
-                                    <p className="text-xl">Rotterdam, the Netherlands</p>
+                                    <p className="text-lg md:text-xl">Rotterdam, the Netherlands</p>
                                 </div>
                                 <div className="py-8">
                                     <small className="text-gray-400">Messengers</small>
-                                    <p className="text-xl">INSTAGRAM</p>
-                                    <p className="text-xl">LINKEDIN</p>
-                                    <p className="text-xl">FACEBOOK</p>
+                                    <p className="text-lg md:text-xl">INSTAGRAM</p>
+                                    <p className="text-lg md:text-xl">LINKEDIN</p>
+                                    <p className="text-lg md:text-xl">FACEBOOK</p>
                                 </div>
                             </div>
                         </div>

@@ -8,7 +8,7 @@ const Testimonial = props => {
             <div className="flex flex-col justify-between">
                 <div>
                     <FaQuoteLeft className="text-4xl red-text" />
-                    <h1 className="text-4xl leading-relaxed py-6">
+                    <h1 className="text-2xl md:text-4xl leading-relaxed py-6">
                         {props.text || "Bondlayer made our process so simple! We can design and test in use immediatly."}
                     </h1>
                 </div>
