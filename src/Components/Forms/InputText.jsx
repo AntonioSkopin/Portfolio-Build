@@ -3,7 +3,7 @@ const InputText = (props) => {
         <input
             type="text"
             name={props.name}
-            className="border-b-2 border-white bg-transparent text-white focus:outline-none pb-2 my-6 w-96"
+            className="border-b-2 border-white bg-transparent text-white focus:outline-none pb-2 my-6 w-3/4 md:w-96"
             placeholder={props.placeholder}
             autocomplete="off" />
     );
